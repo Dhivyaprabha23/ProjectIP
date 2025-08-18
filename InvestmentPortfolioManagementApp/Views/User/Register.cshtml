@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Register User";
+}
+<h2 class="mb-3">Register</h2>
+
+@if (TempData["Msg"] is string msg && !string.IsNullOrWhiteSpace(msg))
+{
+    <div class="alert alert-success">@msg</div>
+}
+@if (ViewBag.Error is string error && !string.IsNullOrWhiteSpace(error))
+{
+    <div class="alert alert-danger">@Html.Raw(error)</div>
+}
+
+<form asp-controller="User" asp-action="Register" method="post" class="needs-validation" novalidate>
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label for="fullName" class="form-label">Full name</label>
+        <input name="fullName" id="fullName" type="text" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input name="email" id="email" type="email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input name="password" id="password" type="password" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label for="role" class="form-label">Role</label>
+        <select name="role" id="role" class="form-select" required>
+            <option value="Investor">Investor</option>
+            <option value="Admin">Admin</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
