@@ -1,3 +1,6 @@
+@using InvestmentPortfolioManagementApp.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-3">
         <div class="container-fluid">
@@ -17,12 +20,22 @@
                 <ul class="navbar-nav ms-auto">
                     @if (User?.Identity?.IsAuthenticated ?? false)
                     {
+                        @{ 
+                            var displayName = User?.Identity?.Name ?? string.Empty;
+                            var appUser = await UserManager.GetUserAsync(User);
+                            if (appUser != null)
+                            {
+                                displayName = !string.IsNullOrWhiteSpace(appUser.FullName)
+                                    ? appUser.FullName!
+                                    : (appUser.UserName ?? displayName);
+                            }
+                            if (!string.IsNullOrWhiteSpace(displayName) && displayName.Contains("@"))
+                            {
+                                displayName = displayName.Split('@')[0];
+                            }
+                        }
                         <li class="nav-item">
-                            <span class="navbar-text me-3">
-                                @if (User.IsInRole("Admin")) { <text>Admin: @User.Identity?.Name</text>; }
-                                else if (User.IsInRole("Investor")) { <text>Investor: @User.Identity?.Name</text>; }
-                                else { <text>@User.Identity?.Name</text>; }
-                            </span>
+                            <span class="navbar-text me-3">@displayName</span>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a>
