@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\controllers\\admindashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\controllers\\investordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\controllers\\investordashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\data\\investmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\data\\investmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|c:\\users\\2420954\\desktop\\adm25dn007\\investmentportfolioappsoln\\investmentportfoliomanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27274F9A-3B70-4096-A218-048882EB310D}|InvestmentPortfolioManagementApp\\InvestmentPortfolioManagementApp.csproj|solutionrelative:investmentportfoliomanagementapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\AdminDashboardController.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Controllers\\AdminDashboardController.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\AdminDashboardController.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Controllers\\AdminDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:57:26.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:55:54.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvestorDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\InvestorDashboardController.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Controllers\\InvestorDashboardController.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\InvestorDashboardController.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Controllers\\InvestorDashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:53:08.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:52:07.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:43:41.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Program.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Program.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Program.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:40:07.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvestmentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Data\\InvestmentDbContext.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Data\\InvestmentDbContext.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Data\\InvestmentDbContext.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Data\\InvestmentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:36:21.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:35:12.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\appsettings.json",
+              "RelativeDocumentMoniker": "InvestmentPortfolioManagementApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\2420954\\Desktop\\ADM25DN007\\InvestmentPortfolioAppSoln\\InvestmentPortfolioManagementApp\\appsettings.json",
+              "RelativeToolTip": "InvestmentPortfolioManagementApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-18T11:33:27.964Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
