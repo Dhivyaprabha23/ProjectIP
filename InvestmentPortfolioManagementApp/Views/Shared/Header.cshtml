@@ -1,6 +1,14 @@
-@using InvestmentPortfolioManagementApp.Models
-@using Microsoft.AspNetCore.Identity
-@inject UserManager<ApplicationUser> UserManager
+@{
+    var displayName = (ViewBag.UserName as string) ?? (User?.Identity?.Name ?? string.Empty);
+    if (!string.IsNullOrWhiteSpace(displayName))
+    {
+        var atIdx = displayName.IndexOf('@');
+        if (atIdx > 0)
+        {
+            displayName = displayName.Substring(0, atIdx);
+        }
+    }
+}
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom mb-3">
         <div class="container-fluid">
@@ -20,20 +28,6 @@
                 <ul class="navbar-nav ms-auto">
                     @if (User?.Identity?.IsAuthenticated ?? false)
                     {
-                        @{ 
-                            var displayName = User?.Identity?.Name ?? string.Empty;
-                            var appUser = await UserManager.GetUserAsync(User);
-                            if (appUser != null)
-                            {
-                                displayName = !string.IsNullOrWhiteSpace(appUser.FullName)
-                                    ? appUser.FullName!
-                                    : (appUser.UserName ?? displayName);
-                            }
-                            if (!string.IsNullOrWhiteSpace(displayName) && displayName.Contains("@"))
-                            {
-                                displayName = displayName.Split('@')[0];
-                            }
-                        }
                         <li class="nav-item">
                             <span class="navbar-text me-3">@displayName</span>
                         </li>
