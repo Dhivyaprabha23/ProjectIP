@@ -1,0 +1,83 @@
+@{
+    ViewData["Title"] = "Investor Dashboard";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-6">Welcome, @ViewBag.UserName</h1>
+            <p class="text-muted">This dashboard helps investors monitor and manage their portfolios.</p>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Snapshot</h5>
+                    <p class="card-text">Overview of your current holdings and performance.</p>
+                    <ul class="mb-0">
+                        <li>Total portfolio value and daily/MTD change</li>
+                        <li>Top gainers and losers</li>
+                        <li>Cash balance and available funds</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Recent Activity</h5>
+                    <p class="card-text">Latest transactions and orders.</p>
+                    <ul class="mb-0">
+                        <li>Recent buys/sells and dividends</li>
+                        <li>Pending and completed orders</li>
+                        <li>Downloadable statements</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Asset Allocation</h5>
+                    <p class="card-text">Distribution across asset classes and sectors.</p>
+                    <ul class="mb-0">
+                        <li>Allocation by asset class, region, and sector</li>
+                        <li>Drift vs. target allocation</li>
+                        <li>Rebalancing suggestions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Watchlist & Research</h5>
+                    <p class="card-text">Track securities you are interested in.</p>
+                    <ul class="mb-0">
+                        <li>Custom watchlists with price alerts</li>
+                        <li>Basic metrics and news highlights</li>
+                        <li>Quick add/remove items</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Goals, Alerts, and Next Steps</h5>
+                    <p class="card-text">Stay on top of what matters.</p>
+                    <ul class="mb-0">
+                        <li>Performance vs. goals and risk tolerance</li>
+                        <li>Corporate actions and important notifications</li>
+                        <li>Suggested actions based on your portfolio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
