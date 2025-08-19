@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Create Investor";
+}
+<h2>Create Investor</h2>
+@if (ViewBag.Error is string err) { <div class="alert alert-danger">@Html.Raw(err)</div> }
+<form asp-action="CreateInvestor" method="post">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label class="form-label">Investor Name</label>
+        <input name="userName" class="form-control" required maxlength="30" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input name="email" type="email" class="form-control" required maxlength="50" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input name="password" type="password" class="form-control" required maxlength="50" />
+    </div>
+    <button class="btn btn-primary">Create</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+ </form>
+

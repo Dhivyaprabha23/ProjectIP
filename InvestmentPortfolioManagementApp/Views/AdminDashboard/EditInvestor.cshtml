@@ -1,0 +1,21 @@
+@model InvestmentPortfolioManagementApp.Models.User
+@{
+    ViewData["Title"] = "Edit Investor";
+}
+<h2>Edit Investor</h2>
+@if (ViewBag.Error is string err) { <div class="alert alert-danger">@Html.Raw(err)</div> }
+<form asp-action="EditInvestor" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="userId" value="@Model.UserId" />
+    <div class="mb-3">
+        <label class="form-label">Investor Name</label>
+        <input name="userName" class="form-control" value="@Model.UserName" required maxlength="30" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input name="email" type="email" class="form-control" value="@Model.Email" required maxlength="50" />
+    </div>
+    <button class="btn btn-primary">Save</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>
+

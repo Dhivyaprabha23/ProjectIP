@@ -1,0 +1,70 @@
+@model InvestmentPortfolioManagementApp.Models.User
+@{
+    ViewData["Title"] = "Investor Dashboard";
+}
+<h2 class="mb-3">Welcome, @ViewBag.UserName!</h2>
+
+@if (TempData["Msg"] is string msg)
+{
+    <div class="alert alert-success">@msg</div>
+}
+@if (ViewBag.Error is string err)
+{
+    <div class="alert alert-danger">@Html.Raw(err)</div>
+}
+
+<div class="d-flex gap-2 mb-3">
+    <a class="btn btn-primary" asp-action="CreateInvestor">Create Investor</a>
+    <a class="btn btn-secondary" asp-action="EditInvestor">Edit My Info</a>
+    </div>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">My Profile</h5>
+        @if (Model is not null)
+        {
+            <p class="card-text"><strong>Name:</strong> @Model.UserName</p>
+            <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+        }
+        else
+        {
+            <p class="text-muted">No local profile found. You can create one.</p>
+        }
+    </div>
+</div>
+
+@model InvestmentPortfolioManagementApp.Models.User
+@{
+    ViewData["Title"] = "Investor Dashboard";
+}
+<h2 class="mb-3">Welcome, @ViewBag.UserName!</h2>
+
+@if (TempData["Msg"] is string msg)
+{
+    <div class="alert alert-success">@msg</div>
+}
+@if (ViewBag.Error is string err)
+{
+    <div class="alert alert-danger">@Html.Raw(err)</div>
+}
+
+<div class="d-flex gap-2 mb-3">
+    <a class="btn btn-primary" asp-action="CreateInvestor">Create Investor</a>
+    <a class="btn btn-secondary" asp-action="EditInvestor">Edit My Info</a>
+    </div>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">My Profile</h5>
+        @if (Model is not null)
+        {
+            <p class="card-text"><strong>Name:</strong> @Model.UserName</p>
+            <p class="card-text"><strong>Email:</strong> @Model.Email</p>
+        }
+        else
+        {
+            <p class="text-muted">No local profile found. You can create one.</p>
+        }
+    </div>
+</div>
+
