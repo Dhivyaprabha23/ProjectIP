@@ -1,0 +1,83 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col">
+            <h1 class="display-6">Welcome, @ViewBag.UserName</h1>
+            <p class="text-muted">Administrative overview and controls.</p>
+        </div>
+    </div>
+
+    <div class="row g-3">
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">User Management</h5>
+                    <p class="card-text">Manage users, roles, and access.</p>
+                    <ul class="mb-0">
+                        <li>Create, disable, and reset user accounts</li>
+                        <li>Assign roles: Admin, Investor</li>
+                        <li>Review login activity and security events</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Portfolio Oversight</h5>
+                    <p class="card-text">System-level portfolio visibility.</p>
+                    <ul class="mb-0">
+                        <li>Aggregated AUM and performance</li>
+                        <li>Outlier detection and risk flags</li>
+                        <li>Data quality checks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Content & Config</h5>
+                    <p class="card-text">Configure global settings.</p>
+                    <ul class="mb-0">
+                        <li>Application settings and feature toggles</li>
+                        <li>Reference data (assets, sectors)</li>
+                        <li>Announcement banner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Reports & Audit</h5>
+                    <p class="card-text">Compliance and operational reporting.</p>
+                    <ul class="mb-0">
+                        <li>Download user and portfolio reports</li>
+                        <li>Audit trail of administrative actions</li>
+                        <li>Error logs and health checks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Links</h5>
+                    <p class="card-text">Navigate to common admin tasks.</p>
+                    <ul class="mb-0">
+                        <li><a asp-controller="Account" asp-action="Register">Create a new user</a></li>
+                        <li><a asp-controller="Home" asp-action="Privacy">Review privacy policy</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Back to Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
